@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/consultora/static/css/main.e2eb26d2.chunk.css",
-    "main.js": "/consultora/static/js/main.4af2f6e0.chunk.js",
-    "main.js.map": "/consultora/static/js/main.4af2f6e0.chunk.js.map",
+    "main.css": "/consultora/static/css/main.f207682d.chunk.css",
+    "main.js": "/consultora/static/js/main.1ea7b905.chunk.js",
+    "main.js.map": "/consultora/static/js/main.1ea7b905.chunk.js.map",
     "runtime-main.js": "/consultora/static/js/runtime-main.c48ca821.js",
     "runtime-main.js.map": "/consultora/static/js/runtime-main.c48ca821.js.map",
-    "static/js/2.cda88cbc.chunk.js": "/consultora/static/js/2.cda88cbc.chunk.js",
-    "static/js/2.cda88cbc.chunk.js.map": "/consultora/static/js/2.cda88cbc.chunk.js.map",
+    "static/js/2.7fe7dcbd.chunk.js": "/consultora/static/js/2.7fe7dcbd.chunk.js",
+    "static/js/2.7fe7dcbd.chunk.js.map": "/consultora/static/js/2.7fe7dcbd.chunk.js.map",
     "index.html": "/consultora/index.html",
-    "static/css/main.e2eb26d2.chunk.css.map": "/consultora/static/css/main.e2eb26d2.chunk.css.map",
-    "static/js/2.cda88cbc.chunk.js.LICENSE.txt": "/consultora/static/js/2.cda88cbc.chunk.js.LICENSE.txt",
-    "static/media/3STLancamentoFanoramaHerobannerHome.ce6eac6c.jpg": "/consultora/static/media/3STLancamentoFanoramaHerobannerHome.ce6eac6c.jpg",
-    "static/media/bemVindas.c4613f45.jpeg": "/consultora/static/media/bemVindas.c4613f45.jpeg"
+    "static/css/main.f207682d.chunk.css.map": "/consultora/static/css/main.f207682d.chunk.css.map",
+    "static/js/2.7fe7dcbd.chunk.js.LICENSE.txt": "/consultora/static/js/2.7fe7dcbd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/consultora/static/media/116387.8494ced7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c48ca821.js",
-    "static/js/2.cda88cbc.chunk.js",
-    "static/css/main.e2eb26d2.chunk.css",
-    "static/js/main.4af2f6e0.chunk.js"
+    "static/js/2.7fe7dcbd.chunk.js",
+    "static/css/main.f207682d.chunk.css",
+    "static/js/main.1ea7b905.chunk.js"
   ]
 }
