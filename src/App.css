@@ -1,38 +1,121 @@
 .App {
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .header img {
+	width: 98.99vw;
+	box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.App .Content {
+	width: 85%;
+	height: 100%;
+	padding: 2rem;
+	background: var(--color-background);
+	border-radius: 20px;
+	box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .Content h1 {
+	color: #000;
+}
+
+.App .Content {
+	display: flex;
+	flex-direction: column;
+}
+
+.App .Content h1{
+	text-align: center;
+	font-size: 80px;
+}
+
+.App .Content p{
+	color: var(--color-text-base);
+	text-align: center;
+	font-size: 40px;
+	margin-top: 5;
+	margin-bottom: 0;
+}
+
+
+
+.App .Content div {
+	display: flex;
+	justify-content: center;
+}
+
+.App .Content div > a{
+  width: 40rem;
+  height: 7.6rem;
+  background: var(--color-secondary);
+  color: var(--color-button-text);
+  border: 0;
+  border-radius: 4rem;
+  text-decoration: none;
+  cursor: pointer;
+  font: 700 2.5rem Archivo;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+
+  transition: 0.2s;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.App .Content div > a:hover {
+	background: var(--color-secondary-dark);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .Content div a img {
+	width: 9%;
+}
+
+.App .Footer {
+	width: 98.99vw;
+  	height: 100px;
+	margin-top: 28vh;
+	bottom: 0;
+	background: var(--color-box-footer);	
+
+	display: flex;
+	align-items: center;
+}
+
+.App .Footer p {
+	margin: 10px;
+	text-decoration: none;
+	color: var(--color-text-complement);
+}
+
+.App .Footer p a{
+	text-decoration: none;
+	color: var(--color-text-complement);
+}
+
+@media (max-width: 700px) {
+    .App .Content {
+		height: 80vh;
+	}
+
+	.App .Content div > a{
+		width: 23rem;
+		height: 4.6rem;
+		border-radius: 4rem;
+		font: 700 1.5rem Archivo;
+	  }
+
+	.App .Content h1{
+		font-size: 40px;
+	}
+
+	.App .Content p{
+		font-size: 20px;
+	}
+
 }
